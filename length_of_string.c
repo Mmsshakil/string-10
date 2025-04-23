@@ -6,9 +6,9 @@ int main()
     // printf("%s\n", s);
 
     int count = 0;
-    for (int i = 0; i != '\0'; i++)
+    for (int i = 0; s[i] != '\0'; i++)
     {
-        printf("%c", s[i]);
+        // printf("%c", s[i]);
         count++;
     }
     // int i = 0;
@@ -18,7 +18,7 @@ int main()
     //     i++;
     // }
 
-    // printf("%d", count);
+    printf("%d", count);
 
     return 0;
 }
