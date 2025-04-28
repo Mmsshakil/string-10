@@ -1,1 +1,1 @@
-    // fgets(str, 16, stdin); // this will work for every situation but you need to declar the input string size includin null, null will be in the end of the string
+ printf("%s %s", s1, s2);
